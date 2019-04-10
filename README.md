@@ -33,10 +33,12 @@ This repository DOES NOT contain original datasets. To get original datasets, yo
 Use the following codes to combine data:
 
 [CQ_VEC_combine_president.R](CQ_VEC_combine_presient.R): Presidential election data from 2000 to 2016 (only from 2000 to 2012 for county level data).
-[CQ_VEC_combine_president_wAlaska.R](CQ_VEC_combine_presient.R): Add Alaska county level data to Presidential election data (see Notes on Alaska).
+[CQ_VEC_combine_president_wAlaska.R](CQ_VEC_combine_president_wAlaska.R): Add Alaska county level data to Presidential election data (see Notes on Alaska).
 [CQ_VEC_combine_house.R](CQ_VEC_combine_house.R): House election data from 1992 to 2016.
 
 ### Resultant datasets
+
+After executing codes, following files will be created.
 
 * <code>cqvec_president_nation.rds</code>: National level election returns for US president, 2000 to 2016.
 * <code>cqvec_president_state.rds</code>: State level election returns for US president, 2000 to 2016.
